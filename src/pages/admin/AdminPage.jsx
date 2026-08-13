@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 //   PAGE_OPTIONS,
 // } from "../../utils/contentStorage";
 import "./style.css";
-
 const AdminPage = () => {
   const [page, setPage] = useState("home");
   const [text, setText] = useState("");
